@@ -12,6 +12,7 @@ class Solution {
             x *=10;
         }
 
+        
         strTer = Long.toString(ternary);
         String[] arrStr = strTer.split("");
         

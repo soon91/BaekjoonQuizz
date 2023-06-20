@@ -1,5 +1,5 @@
 class Solution {
-    public int solution(long n) {
+    public int solution(int n) {
         int answer = 0;
         
         long ternary = 0;

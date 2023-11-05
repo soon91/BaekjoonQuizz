@@ -3,7 +3,7 @@ class Solution {
         int answer = 0;
         
         if (my_string.length() >= is_suffix.length()) {
-            if (my_string.substring(my_string.length()-is_suffix.length(),my_string.length()).equals(is_suffix)){
+            if (my_string.substring(my_string.length()-is_suffix.length()).equals(is_suffix)){
                 answer = 1;
             }
         }

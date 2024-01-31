@@ -14,12 +14,8 @@ class Solution {
             temp = i;
         }
         
-        if (list.isEmpty()) {
+        for (int i = list.size(); i < temp * 2; i++) {
             list.add(0);
-        } else {
-            for (int i = list.size(); i < temp * 2; i++) {
-                list.add(0);
-            }
         }
 
         int[] answer = new int[list.size()];

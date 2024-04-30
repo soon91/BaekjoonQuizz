@@ -25,7 +25,6 @@ public class Main {
         for (int i = 0; i < N; i++) {
             sb.append(arr[i][0]).append(" ").append(arr[i][1]).append("\n");
         }
-
         System.out.println(sb.toString());
     }
 }
